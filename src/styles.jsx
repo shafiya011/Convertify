@@ -19,12 +19,9 @@ export const ImageContainer = styled.div`
   gap: 15px;
   overflow-x: scroll;
   margin-top: 25px;
-
-  /* Hide scrollbar */
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE 10+ */
+  scrollbar-width: none;
   &::-webkit-scrollbar {
-    display: none; /* Chrome, Safari */
+    display: none;
   }
 `;
 
@@ -49,8 +46,8 @@ export const IgName = styled.div`
   background: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.7) 0%,
-     rgba(0, 0, 0, 0.3) 50%,
-    rgba(0,0,0,0) 100%
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 0, 0, 0) 100%
   );
   color: white;
   text-align: center;
